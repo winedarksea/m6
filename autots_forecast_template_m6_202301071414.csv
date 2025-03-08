@@ -1,0 +1,2 @@
+ID,Model,ModelParameters,TransformationParameters,Ensemble
+3c3350c75ff254d0e403aeb4c1ea0d12,MultivariateMotif,"{""window"": 14, ""point_method"": ""mean"", ""distance_metric"": ""dice"", ""k"": 5, ""max_windows"": 1000}","{""fillna"": ""ffill"", ""transformations"": {""0"": ""DifferencedTransformer"", ""1"": ""QuantileTransformer"", ""2"": ""ClipOutliers""}, ""transformation_params"": {""0"": {}, ""1"": {""output_distribution"": ""normal"", ""n_quantiles"": 21}, ""2"": {""method"": ""clip"", ""std_threshold"": 1, ""fillna"": null}}}",0
